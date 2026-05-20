@@ -2,6 +2,12 @@
 
 Minimal real-estate marketplace slice with a NestJS REST API, Prisma/SQLite database, and a Next.js App Router frontend with synchronized listing and map interactions.
 
+## Prerequisites
+
+- Node.js 22 or newer
+- npm
+- Docker Desktop or Docker Engine, only if using the Docker workflow
+
 ## Requirements Covered
 
 - Run instructions for both apps locally, plus Docker Compose as a bonus.
@@ -28,7 +34,11 @@ The app uses Leaflet with OpenStreetMap public tiles:
 
 ## Run With Docker
 
+Make sure Docker Desktop or Docker Engine is running first.
+
 ```bash
+git clone <repository-url>
+cd estapick-assignment
 docker compose up --build
 ```
 
@@ -41,12 +51,19 @@ The Docker setup intentionally keeps `NEXT_PUBLIC_API_URL=http://localhost:4000`
 
 Use two terminals: one for the API and one for the web app.
 
+From a fresh clone:
+
+```bash
+git clone <repository-url>
+cd estapick-assignment
+```
+
 ### Backend
 
 ```bash
 cd api
 cp .env.example .env
-npm install
+npm ci
 npm run prisma:migrate
 npm run prisma:seed
 npm run start:dev
@@ -72,7 +89,7 @@ sqlite3 prisma/dev.db < prisma/migrations/20260519184500_init/migration.sql
 
 ```bash
 cd web
-npm install
+npm ci
 npm run dev
 ```
 
@@ -80,6 +97,12 @@ The web app runs on `http://localhost:3000` by default. If the API is not on por
 
 ```bash
 NEXT_PUBLIC_API_URL=http://localhost:4000
+```
+
+For example:
+
+```bash
+NEXT_PUBLIC_API_URL=http://localhost:4000 npm run dev
 ```
 
 For a production build check:
@@ -123,7 +146,7 @@ Response:
   "meta": {
     "page": 1,
     "limit": 10,
-    "total": 20,
+    "total": 18,
     "totalPages": 2
   }
 }
