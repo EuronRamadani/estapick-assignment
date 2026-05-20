@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Villa illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f0fdf4"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <path d="M140 660c220-135 700-135 920 0" fill="#bbf7d0"/>
+  <rect x="280" y="360" width="640" height="280" rx="30" fill="#f8fafc"/>
+  <path d="M240 375 600 150l360 225z" fill="#92400e"/>
+  <rect x="360" y="445" width="120" height="92" rx="12" fill="#bae6fd"/>
+  <rect x="720" y="445" width="120" height="92" rx="12" fill="#bae6fd"/>
+  <rect x="545" y="480" width="110" height="160" rx="14" fill="#78350f"/>
+  <path d="M175 660c36-100 116-100 152 0" fill="#16a34a"/>
+  <path d="M890 660c42-120 138-120 180 0" fill="#22c55e"/>
+</svg>

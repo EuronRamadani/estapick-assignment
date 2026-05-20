@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Contemporary apartment facade illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#d9f99d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="230" y="185" width="740" height="480" rx="38" fill="#3f3f46"/>
+  <rect x="295" y="245" width="610" height="72" rx="16" fill="#a7f3d0"/>
+  <rect x="295" y="365" width="610" height="72" rx="16" fill="#bbf7d0"/>
+  <rect x="295" y="485" width="610" height="72" rx="16" fill="#a7f3d0"/>
+  <g fill="#18181b">
+    <rect x="390" y="245" width="24" height="312"/>
+    <rect x="575" y="245" width="24" height="312"/>
+    <rect x="760" y="245" width="24" height="312"/>
+  </g>
+  <rect x="530" y="575" width="140" height="90" rx="12" fill="#27272a"/>
+  <rect x="150" y="665" width="900" height="34" rx="17" fill="#84cc16"/>
+</svg>

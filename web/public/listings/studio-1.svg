@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Cozy studio interior illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="1" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="190" y="155" width="820" height="490" rx="34" fill="#fafaf9"/>
+  <rect x="255" y="225" width="280" height="180" rx="18" fill="#c7d2fe"/>
+  <rect x="620" y="245" width="275" height="250" rx="20" fill="#fed7aa"/>
+  <rect x="650" y="300" width="215" height="40" rx="20" fill="#fb923c"/>
+  <rect x="650" y="390" width="215" height="72" rx="18" fill="#fdba74"/>
+  <rect x="255" y="465" width="330" height="85" rx="24" fill="#475569"/>
+  <circle cx="842" cy="190" r="48" fill="#facc15"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Garden property illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dcfce7"/>
+      <stop offset="1" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="300" y="305" width="600" height="260" rx="28" fill="#f8fafc"/>
+  <path d="M270 325 600 125l330 200z" fill="#166534"/>
+  <rect x="405" y="390" width="105" height="80" rx="12" fill="#bbf7d0"/>
+  <rect x="690" y="390" width="105" height="80" rx="12" fill="#bbf7d0"/>
+  <rect x="545" y="445" width="110" height="120" rx="12" fill="#14532d"/>
+  <path d="M120 660c160-190 320-190 480 0s320 190 480 0v140H120z" fill="#22c55e"/>
+  <circle cx="970" cy="170" r="76" fill="#facc15" opacity=".8"/>
+</svg>
